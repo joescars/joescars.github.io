@@ -15,7 +15,6 @@ categories:
   - IoT
   - Microsoft Azure
 ---
-
 ![Azure IoT Functions and Costa Farms](/assets/wp-content/uploads/2017/01/azure-iot-azure-functions-costa-farms.jpg)
 
 Late last year I had the opportunity to work with [Costa Farms](http://www.costafarms.com/) on a small proof of concept project. The goal was simple; actively monitor pH levels in their plants water supply and take intelligent action if needed.
