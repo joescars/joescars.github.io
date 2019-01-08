@@ -23,7 +23,8 @@ description: Senior Software Engineer @ Microsoft
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "about-joe-raio"
+  About: "about-joe-raio"
+  Music: "music"
   Resources:
     - GitHub: "https://github.com/joescars/"
     - Twitter: "https://twitter.com/joescars"
@@ -156,7 +157,7 @@ title-separator: "-"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "America/New_York"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
