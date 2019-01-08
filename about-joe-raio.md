@@ -6,6 +6,10 @@ author: Joe
 layout: page
 guid: http://joeraio.com/?page_id=270
 permalink: /about-joe-raio/
+sitemap:
+    priority: 0.5
+    changefreq: 'monthly'
+    lastmod: 2019-01-09T12:49:30-05:00
 ---
 Joe Raio is a Senior Software Engineering Manager in Microsoft’s Commercial Software Engineering (CSE) organization where he works with the top Financial Services organizations develop innovative cloud solutions using Microsoft Azure.
 
