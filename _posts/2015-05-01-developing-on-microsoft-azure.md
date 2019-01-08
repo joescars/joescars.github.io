@@ -6,14 +6,14 @@ author: Joe
 layout: post
 guid: http://joeraio.com/?p=24
 permalink: /developing-on-microsoft-azure/
-price_table:
-  - 'a:0:{}'
 image: /assets/wp-content/uploads/2015/05/developing-on-microsoft-azure.png
 categories:
   - Education
   - Microsoft Azure
   - Microsoft Virtual Academy
 ---
+![Developing on Microsoft Azure](/assets/wp-content/uploads/2015/05/developing-on-microsoft-azure.png)
+
 Getting started developing Microsoft Azure solutions by watching the amazing online course put together by Bret Stateham and Sidney Andrews.
 
 This course focuses on topics you will need to know in order to pass [Exam 70-532: Developing Microsoft Azure Solutions](https://www.microsoft.com/learning/en-us/exam-70-532.aspx).

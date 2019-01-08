@@ -6,14 +6,14 @@ author: Joe
 layout: post
 guid: http://joeraio.com/?p=16
 permalink: /how-can-i-learn-mvc/
-price_table:
-  - 'a:0:{}'
 image: /assets/wp-content/uploads/2015/05/learn-to-develop-using-mvc.png
 categories:
   - Education
   - Microsoft Virtual Academy
   - MVC
 ---
+![How Can I Learn MVC?](/assets/wp-content/uploads/2015/05/learn-to-develop-using-mvc.png)
+
 One of the best ways for any developer to grow is by staying up to date on all the current technologies and tools that are available to them. And as well all know, technology advances very fast.
 
 The hardest part for most of us is simply finding the time to learn new things. If you are anything like me, you stick to what you are most familiar with to get a project done and out the door. In the end the client is still happy and your project still gets done, but, you may be missing out on ways you can streamline your work and get projects done even faster and with cleaner code.
