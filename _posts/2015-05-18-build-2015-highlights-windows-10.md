@@ -13,7 +13,8 @@ categories:
   - Microsoft Virtual Academy
   - Windows 10
 ---
-The team over at <a href="http://www.microsoftvirtualacademy.com/" target="_blank">Microsoft Virtual Academy</a> has put together an amazing course focusing on the highlights of what we learned about Windows 10, and developing for it, at //build 2015.
+![Build 2015 Highlights and Windows 10](/assets/wp-content/uploads/2015/05/best-of-build.jpg)
+The team over at [Microsoft Virtual Academy](http://www.microsoftvirtualacademy.com/) have put together an amazing course focusing on the highlights of what we learned about Windows 10, and developing for it, at //build 2015.
 
 The course is broken down into the following sections
 
@@ -26,4 +27,4 @@ The course is broken down into the following sections
 
 I highly recommend watching this free course to learn about all the new stuff coming out and how it will change the way we develop and interact with devices.
 
-The course is available here: <a href="http://www.microsoftvirtualacademy.com/training-courses/best-of-build-and-windows-10" target="_blank">http://www.microsoftvirtualacademy.com/training-courses/best-of-build-and-windows-10</a>
+The course is available here: <http://www.microsoftvirtualacademy.com/training-courses/best-of-build-and-windows-10>
