@@ -13,6 +13,7 @@ categories:
   - Microsoft Virtual Academy
   - Online Courses
   - Web Development
+tags: [education, microsoft virtual academy, online courses, web development]
 ---
 ![Free Web Development Courses](/assets/wp-content/uploads/2015/06/free-web-development-courses.jpg)
 

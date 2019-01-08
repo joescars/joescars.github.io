@@ -11,6 +11,7 @@ categories:
   - ASP.NET Core
   - Google Authentication
   - MVC
+tags: [asp.net core, google authentication, mvc]
 ---
 ![Using Google Authentication with ASP.NET Core (ASP.NET 5)](/assets/wp-content/uploads/2016/03/asp-net-core-google-authentication-mvc-ef.png)
 

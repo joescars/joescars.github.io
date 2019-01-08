@@ -12,6 +12,7 @@ categories:
   - Azure Functions
   - Microsoft Azure
   - Serverless
+tags: [azure functions, microsoft azure, serverless]
 ---
 ![Functions17](/assets/wp-content/uploads/2017/08/functions17-building-serverless-applications-azure.png)
 

@@ -10,6 +10,7 @@ image: /assets/wp-content/uploads/2016/02/asp-net-core-mvc-mac-osx.jpg
 categories:
   - ASP.NET Core
   - Web Development
+tags: [asp.net core, web development, tutorial]
 ---
 ![Getting started with ASP.NET Core 1.0](/assets/wp-content/uploads/2016/02/asp-net-core-mvc-mac-osx.jpg)
 This was presented at South Florida Code Camp 2016.

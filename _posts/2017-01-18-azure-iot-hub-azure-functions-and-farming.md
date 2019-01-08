@@ -12,6 +12,7 @@ categories:
   - Azure Functions
   - IoT
   - Microsoft Azure
+tags: [azure functions, iot, microsoft azure, internet of things, agriculture]
 ---
 ![Azure IoT Functions and Costa Farms](/assets/wp-content/uploads/2017/01/azure-iot-azure-functions-costa-farms.jpg)
 

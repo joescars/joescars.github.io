@@ -11,6 +11,7 @@ categories:
   - Education
   - Microsoft Virtual Academy
   - MVC
+tags: [education, microsoft virtual academy, mvc, asp.net, web development]
 ---
 ![How Can I Learn MVC?](/assets/wp-content/uploads/2015/05/learn-to-develop-using-mvc.png)
 

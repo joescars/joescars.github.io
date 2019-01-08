@@ -10,6 +10,7 @@ image: /assets/wp-content/uploads/2015/05/microsoft-virtual-academy-free-courses
 categories:
   - Education
   - Microsoft Virtual Academy
+tags: [education, microsoft virtual academy]
 ---
 ![Microsoft Virtual Academy May 2015 Preview](/assets/wp-content/uploads/2015/05/microsoft-virtual-academy-free-courses-updated-1200x488.jpg)
 

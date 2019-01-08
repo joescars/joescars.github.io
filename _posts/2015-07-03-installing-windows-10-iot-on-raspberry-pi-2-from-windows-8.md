@@ -11,6 +11,7 @@ categories:
   - IoT
   - Raspberry Pi
   - Windows 10
+tags: [iot, internet of things, raspberry pi, windows 10]
 ---
 ![Installing Windows 10 IoT on Raspberry Pi 2 from Windows 8](/assets/wp-content/uploads/2015/07/windows-10-iot-raspberry-pi-ii.jpg)
 

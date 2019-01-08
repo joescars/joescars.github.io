@@ -12,6 +12,7 @@ categories:
   - ASP.NET Core
   - Azure Functions
   - Microsoft Azure
+tags: [asp.net core, azure functions, microsoft azure]
 ---
 ![Deploy Azure Web App or Azure Function from Repository Folder](/assets/wp-content/uploads/2017/01/azure-functions-deployment.jpg)
 

@@ -12,6 +12,7 @@ categories:
   - Education
   - Microsoft Azure
   - WordPress
+tags: [dreamspark, education, microsoft azure, wordpress, tutorial]
 ---
 ![Using DreamSpark to Create a WordPress Site on Azure](/assets/wp-content/uploads/2016/03/Wordpress-Azure-DreamSpark.jpg)
 

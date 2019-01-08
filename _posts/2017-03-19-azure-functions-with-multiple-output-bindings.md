@@ -12,6 +12,7 @@ categories:
   - Azure Functions
   - Microsoft Azure
   - Serverless
+tags: [azure functions, microsoft azure, serverless]
 ---
 ![Azure Functions with Multiple Output Bindings](/assets/wp-content/uploads/2017/03/azure-functions-muleiple-output.png)
 

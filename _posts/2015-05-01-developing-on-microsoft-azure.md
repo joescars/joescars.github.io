@@ -11,6 +11,7 @@ categories:
   - Education
   - Microsoft Azure
   - Microsoft Virtual Academy
+tags: [education, microsoft azure, microsoft virtual academy]
 ---
 ![Developing on Microsoft Azure](/assets/wp-content/uploads/2015/05/developing-on-microsoft-azure.png)
 

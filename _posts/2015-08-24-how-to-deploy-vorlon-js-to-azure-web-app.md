@@ -12,6 +12,7 @@ categories:
   - JavaScript
   - Microsoft Azure
   - Web Development
+tags: [javascript, microsoft azure, web development, vorlon.js]
 ---
 ![How to Deploy Vorlon.JS to Azure Web App](/assets/wp-content/uploads/2015/08/deploy-vorlonjs-to-azure-web-app.png)
 

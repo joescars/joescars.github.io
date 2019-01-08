@@ -12,6 +12,7 @@ categories:
   - ASP.NET Core
   - Azure App Service
   - Microsoft Azure
+tags: [asp.net core, azure app service, microsoft azure]
 ---
 ![Internal Server Error after Upgrading to .NET Core 1.1](/assets/wp-content/uploads/2017/04/error-while-starting-1.1-web-app-azure-app-service.jpg)
 

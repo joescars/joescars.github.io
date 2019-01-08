@@ -10,6 +10,7 @@ image: /assets/wp-content/uploads/2015/05/best-of-build.jpg
 categories:
   - Microsoft Virtual Academy
   - Windows 10
+tags: [microsoft virtual academy, widnows 10, build 2015]
 ---
 ![Build 2015 Highlights and Windows 10](/assets/wp-content/uploads/2015/05/best-of-build.jpg)
 The team over at [Microsoft Virtual Academy](http://www.microsoftvirtualacademy.com/) have put together an amazing course focusing on the highlights of what we learned about Windows 10, and developing for it, at //build 2015.
