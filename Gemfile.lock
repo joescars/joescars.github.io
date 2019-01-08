@@ -245,9 +245,8 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  github-pages
-  jekyll-feed (~> 0.6)
-  minima (~> 2.0)
+  github-pages (= 193)
+  jekyll-paginate
   tzinfo-data
   wdm (~> 0.1.0)
 

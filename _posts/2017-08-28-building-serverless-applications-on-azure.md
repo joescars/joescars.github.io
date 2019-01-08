@@ -1,6 +1,7 @@
 ---
 id: 404
 title: Building Serverless Applications on Azure
+excerpt: You can watch my talk from Functions17 in Toronto below. This includes a walk through of Serverless Offerings at Microsoft, Demo of Azure Functions CLI and Visual Studio Tools.
 date: 2017-08-28T07:12:36+00:00
 author: Joe
 layout: post
