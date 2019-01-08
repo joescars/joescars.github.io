@@ -1,18 +1,17 @@
 ---
 id: 162
-title: Getting started with ASP.NET Core 1.0
+title: Getting started with ASP.NET Core 1.0
 date: 2016-02-26T09:27:55+00:00
 author: Joe
 layout: post
 guid: http://joeraio.com/?p=162
 permalink: /getting-started-with-asp-net-core-1-0/
-price_table:
-  - 'a:0:{}'
 image: /assets/wp-content/uploads/2016/02/asp-net-core-mvc-mac-osx.jpg
 categories:
   - ASP.NET Core
   - Web Development
 ---
+![Getting started with ASP.NET Core 1.0](/assets/wp-content/uploads/2016/02/asp-net-core-mvc-mac-osx.jpg)
 This was presented at South Florida Code Camp 2016.
 
 You can find the code from the demo here: <https://github.com/joescars/SFCCASPCoreDemo>
@@ -36,8 +35,6 @@ We then switch over to the MAC and continue with the following
   * Building the project and running locally using Kestrel Web server
   * Pushing the updates back up to Azure using Git
 
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/gKlq5PT1Hep7zQ" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe> 
 
-
-<div style="margin-bottom: 5px;">
-  <strong> <a title="Getting Started with ASP.net Core 1.0" href="//www.slideshare.net/joescars/getting-started-with-aspnet-core-10" target="_blank">Getting Started with ASP.net Core 1.0</a> </strong> from <strong><a href="//www.slideshare.net/joescars" target="_blank">joescars</a></strong>
-</div>
+**[Getting Started with ASP.net Core 1.0](//www.slideshare.net/joescars/getting-started-with-aspnet-core-10)** from **[joescars](//www.slideshare.net/joescars)**
