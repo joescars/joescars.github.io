@@ -8,7 +8,7 @@ guid: http://joeraio.com/?p=167
 permalink: /using-google-authentication-with-asp-net-core-asp-net-5/
 price_table:
   - 'a:0:{}'
-image: /wp-content/uploads/2016/03/asp-net-core-google-authentication-mvc-ef.png
+image: /assets/wp-content/uploads/2016/03/asp-net-core-google-authentication-mvc-ef.png
 categories:
   - ASP.NET Core
   - Google Authentication

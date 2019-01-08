@@ -9,7 +9,7 @@ guid: http://joeraio.com/?p=295
 permalink: /azure-functions-with-multiple-output-bindings/
 price_table:
   - 'a:0:{}'
-image: /wp-content/uploads/2017/03/azure-functions-muleiple-output.png
+image: /assets/wp-content/uploads/2017/03/azure-functions-muleiple-output.png
 categories:
   - Azure Functions
   - Microsoft Azure

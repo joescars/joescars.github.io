@@ -8,7 +8,7 @@ guid: http://joeraio.com/?p=51
 permalink: /build-2015-highlights-windows-10/
 price_table:
   - 'a:0:{}'
-image: /wp-content/uploads/2015/05/best-of-build.jpg
+image: /assets/wp-content/uploads/2015/05/best-of-build.jpg
 categories:
   - Microsoft Virtual Academy
   - Windows 10

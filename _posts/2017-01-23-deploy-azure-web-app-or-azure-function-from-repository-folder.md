@@ -9,7 +9,7 @@ guid: http://joeraio.com/?p=248
 permalink: /deploy-azure-web-app-or-azure-function-from-repository-folder/
 price_table:
   - 'a:0:{}'
-image: /wp-content/uploads/2017/01/azure-functions-deployment.jpg
+image: /assets/wp-content/uploads/2017/01/azure-functions-deployment.jpg
 categories:
   - ASP.NET Core
   - Azure Functions

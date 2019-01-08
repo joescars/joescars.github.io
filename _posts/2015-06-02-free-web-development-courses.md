@@ -9,7 +9,7 @@ guid: http://joeraio.com/?p=68
 permalink: /free-web-development-courses/
 price_table:
   - 'a:0:{}'
-image: /wp-content/uploads/2015/06/free-web-development-courses.jpg
+image: /assets/wp-content/uploads/2015/06/free-web-development-courses.jpg
 categories:
   - Education
   - Microsoft Virtual Academy

@@ -8,7 +8,7 @@ guid: http://joeraio.com/?p=7
 permalink: /microsoft-virtual-academy-may-2015-preview/
 price_table:
   - 'a:0:{}'
-image: /wp-content/uploads/2015/05/microsoft-virtual-academy-free-courses-updated-1200x488.jpg
+image: /assets/wp-content/uploads/2015/05/microsoft-virtual-academy-free-courses-updated-1200x488.jpg
 categories:
   - Education
   - Microsoft Virtual Academy

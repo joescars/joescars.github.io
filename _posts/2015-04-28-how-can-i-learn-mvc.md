@@ -8,7 +8,7 @@ guid: http://joeraio.com/?p=16
 permalink: /how-can-i-learn-mvc/
 price_table:
   - 'a:0:{}'
-image: /wp-content/uploads/2015/05/learn-to-develop-using-mvc.png
+image: /assets/wp-content/uploads/2015/05/learn-to-develop-using-mvc.png
 categories:
   - Education
   - Microsoft Virtual Academy

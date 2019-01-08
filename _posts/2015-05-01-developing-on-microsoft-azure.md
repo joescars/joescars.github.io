@@ -8,7 +8,7 @@ guid: http://joeraio.com/?p=24
 permalink: /developing-on-microsoft-azure/
 price_table:
   - 'a:0:{}'
-image: /wp-content/uploads/2015/05/developing-on-microsoft-azure.png
+image: /assets/wp-content/uploads/2015/05/developing-on-microsoft-azure.png
 categories:
   - Education
   - Microsoft Azure

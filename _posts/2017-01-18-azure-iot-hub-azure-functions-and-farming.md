@@ -9,7 +9,7 @@ guid: http://joeraio.com/?p=240
 permalink: /azure-iot-hub-azure-functions-and-farming/
 price_table:
   - 'a:0:{}'
-image: /wp-content/uploads/2017/01/azure-iot-azure-functions-costa-farms.jpg
+image: /assets/wp-content/uploads/2017/01/azure-iot-azure-functions-costa-farms.jpg
 categories:
   - Azure Functions
   - IoT
