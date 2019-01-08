@@ -27,7 +27,7 @@ For example; I have a project consisting of a UWP slideshow application and my w
 
 In this instance, I only want to deploy the folder &#8216;MicMediaManager&#8217; to my web app. To do this I [connected my Azure Web App to GitHub for continuous deployment](https://docs.microsoft.com/en-us/azure/app-service-web/app-service-continuous-deployment) and then added the following settings to my app settings.
 
-<img class="alignnone size-large wp-image-252" src="/assets/wp-content/uploads/2017/01/azure-web-app-deploy-repo-folder-1024x393.png" alt="" width="840" height="322" srcset="http://localhost/wp-content/uploads/2017/01/azure-web-app-deploy-repo-folder-1024x393.png 1024w, http://localhost/wp-content/uploads/2017/01/azure-web-app-deploy-repo-folder-300x115.png 300w, http://localhost/wp-content/uploads/2017/01/azure-web-app-deploy-repo-folder-768x295.png 768w, http://localhost/wp-content/uploads/2017/01/azure-web-app-deploy-repo-folder.png 1039w" sizes="(max-width: 840px) 100vw, 840px" />
+![App Settings](/assets/wp-content/uploads/2017/01/azure-web-app-deploy-repo-folder.png)
 
 That&#8217;s it! Now I can update each folder independently and my web app will only publish changes within the source folder specified.
 
@@ -35,8 +35,8 @@ That&#8217;s it! Now I can update each folder independently and my web app will 
 
 This same method works with **Azure Functions** as well. I&#8217;ve setup a sample repository here: <https://github.com/joescars/AzureFunctionsCustomDeployment> in which I have a folder with my Functions inside their own sub-folder. I then go to the function app settings, add a project setting and it will deploy all my Functions from that folder.
 
-<img class="alignnone size-large wp-image-254" src="/assets/wp-content/uploads/2017/01/azure-function-app-settings-1024x185.png" alt="" width="840" height="152" srcset="http://localhost/wp-content/uploads/2017/01/azure-function-app-settings-1024x185.png 1024w, http://localhost/wp-content/uploads/2017/01/azure-function-app-settings-300x54.png 300w, http://localhost/wp-content/uploads/2017/01/azure-function-app-settings-768x139.png 768w, http://localhost/wp-content/uploads/2017/01/azure-function-app-settings-1200x216.png 1200w, http://localhost/wp-content/uploads/2017/01/azure-function-app-settings.png 1214w" sizes="(max-width: 840px) 100vw, 840px" />
+![Azure Function App Settings](/assets/wp-content/uploads/2017/01/azure-function-app-settings.png)
 
-<img class="alignnone size-large wp-image-255" src="/assets/wp-content/uploads/2017/01/azure-function-custom-folder-app-setting.png" alt="" width="683" height="391" srcset="http://localhost/wp-content/uploads/2017/01/azure-function-custom-folder-app-setting.png 683w, http://localhost/wp-content/uploads/2017/01/azure-function-custom-folder-app-setting-300x172.png 300w" sizes="(max-width: 683px) 100vw, 683px" />
+![Azure Function Custom Project Folder](/assets/wp-content/uploads/2017/01/azure-function-custom-folder-app-setting.png)
 
 Happy Coding!
