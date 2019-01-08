@@ -12,7 +12,6 @@ categories:
   - Microsoft Azure
   - Serverless
 ---
-
 ![Functions17](/assets/wp-content/uploads/2017/08/functions17-building-serverless-applications-azure.png)
 
 You can watch my talk from [#Functions17](https://functions.world) in Toronto below. This includes a walk through of Serverless Offerings at Microsoft, Demo of Azure Functions CLI and Visual Studio Tools.

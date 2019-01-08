@@ -15,6 +15,8 @@ categories:
   - Azure Functions
   - Microsoft Azure
 ---
+![Deploy Azure Web App or Azure Function from Repository Folder](/assets/wp-content/uploads/2017/01/azure-functions-deployment.jpg)
+
 I participate in a lot of hackathons. Whether its an internal up-skilling event, university hackathon, or on site with a partner. These are often some of the most fun and frustrating things I get to work on.
 
 At just about every hackathon, we use GitHub to setup a central repo with all the parts of the project we are working on. This could for example contain a web app, azure functions, Xamarin app, console app etc. We normally will just throw everything into its own folder and work from the one repo to keep it easy for everyone.

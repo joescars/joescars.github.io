@@ -15,6 +15,8 @@ categories:
   - Microsoft Azure
   - Serverless
 ---
+![Azure Functions with Multiple Output Bindings](/assets/wp-content/uploads/2017/03/azure-functions-muleiple-output.png)
+
 Recently while working on a partner project, it was required that we build an Azure Function that not only outputs to an Azure Storage Queue, but also archives that same message in Azure Storage. While the concept itself is simple, I wanted to use the built in Azure Functions bindings to do this as simply and cleanly as possible. After a little research, it turns out this is possible and very easy to implement.
 
 The following walks you through how to create an Azure Function with a manual trigger that both sends a message to Azure Table Storage and Azure Queue Storage through built in Azure Function Bindings.

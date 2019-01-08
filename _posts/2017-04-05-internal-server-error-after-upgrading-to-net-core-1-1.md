@@ -15,6 +15,8 @@ categories:
   - Azure App Service
   - Microsoft Azure
 ---
+![Internal Server Error after Upgrading to .NET Core 1.1](/assets/wp-content/uploads/2017/04/error-while-starting-1.1-web-app-azure-app-service.jpg)
+
 So I decided to start upgrading all my Azure Web Apps and associated NuGet packages to to .NET Core 1.1. The process was very simple and everything worked perfectly locally.
 
 Naturally, I pushed my update to my GitHub repo, Azure takes over and does the deployment. Then.. **<span style="color: #ff0000;">FAIL</span>**<figure id="attachment_358" style="width: 840px" class="wp-caption alignleft">
