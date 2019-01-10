@@ -7,7 +7,7 @@ excerpt: This case study walks you through how we used Azure IoT Hub, Stream Ana
 layout: post
 guid: http://joeraio.com/?p=240
 permalink: /azure-iot-hub-azure-functions-and-farming/
-image: /assets/wp-content/uploads/2017/01/azure-iot-azure-functions-costa-farms.jpg
+#image: /assets/wp-content/uploads/2017/01/azure-iot-azure-functions-costa-farms.jpg
 categories:
   - Azure Functions
   - IoT

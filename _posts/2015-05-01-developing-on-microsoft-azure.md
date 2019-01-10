@@ -6,7 +6,7 @@ author: Joe
 layout: post
 guid: http://joeraio.com/?p=24
 permalink: /developing-on-microsoft-azure/
-image: /assets/wp-content/uploads/2015/05/developing-on-microsoft-azure.png
+#image: /assets/wp-content/uploads/2015/05/developing-on-microsoft-azure.png
 categories:
   - Education
   - Microsoft Azure

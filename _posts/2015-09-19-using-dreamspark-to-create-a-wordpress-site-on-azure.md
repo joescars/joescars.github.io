@@ -6,7 +6,7 @@ author: Joe
 layout: post
 guid: http://joeraio.com/?p=128
 permalink: /using-dreamspark-to-create-a-wordpress-site-on-azure/
-image: /assets/wp-content/uploads/2016/03/Wordpress-Azure-DreamSpark.jpg
+#image: /assets/wp-content/uploads/2016/03/Wordpress-Azure-DreamSpark.jpg
 categories:
   - DreamSpark
   - Education

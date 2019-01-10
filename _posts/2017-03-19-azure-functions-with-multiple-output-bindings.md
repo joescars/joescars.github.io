@@ -7,7 +7,7 @@ excerpt: Step by step guide on creating an Azure Function with multiple output b
 layout: post
 guid: http://joeraio.com/?p=295
 permalink: /azure-functions-with-multiple-output-bindings/
-image: /assets/wp-content/uploads/2017/03/azure-functions-muleiple-output.png
+#image: /assets/wp-content/uploads/2017/03/azure-functions-muleiple-output.png
 categories:
   - Azure Functions
   - Microsoft Azure

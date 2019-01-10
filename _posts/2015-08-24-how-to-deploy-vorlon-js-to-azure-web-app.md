@@ -7,7 +7,7 @@ excerpt: This video will walk you through how to deploy Vorlon.JS to an Azure We
 layout: post
 guid: http://joeraio.com/?p=114
 permalink: /how-to-deploy-vorlon-js-to-azure-web-app/
-image: /assets/wp-content/uploads/2015/08/deploy-vorlonjs-to-azure-web-app.png
+#image: /assets/wp-content/uploads/2015/08/deploy-vorlonjs-to-azure-web-app.png
 categories:
   - JavaScript
   - Microsoft Azure

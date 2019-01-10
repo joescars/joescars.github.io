@@ -7,7 +7,7 @@ excerpt: 'Learn how easy it is to deploy an Azure Web App or Azure function from
 layout: post
 guid: http://joeraio.com/?p=248
 permalink: /deploy-azure-web-app-or-azure-function-from-repository-folder/
-image: /assets/wp-content/uploads/2017/01/azure-functions-deployment.jpg
+#image: /assets/wp-content/uploads/2017/01/azure-functions-deployment.jpg
 categories:
   - ASP.NET Core
   - Azure Functions

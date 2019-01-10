@@ -6,7 +6,7 @@ author: Joe
 layout: post
 guid: http://joeraio.com/?p=162
 permalink: /getting-started-with-asp-net-core-1-0/
-image: /assets/wp-content/uploads/2016/02/asp-net-core-mvc-mac-osx.jpg
+#image: /assets/wp-content/uploads/2016/02/asp-net-core-mvc-mac-osx.jpg
 categories:
   - ASP.NET Core
   - Web Development

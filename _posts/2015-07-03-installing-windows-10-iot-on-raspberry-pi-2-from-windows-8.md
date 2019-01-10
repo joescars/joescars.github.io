@@ -6,7 +6,7 @@ author: Joe
 layout: post
 guid: http://joeraio.com/?p=79
 permalink: /installing-windows-10-iot-on-raspberry-pi-2-from-windows-8/
-image: /assets/wp-content/uploads/2015/07/windows-10-iot-raspberry-pi-ii.jpg
+#image: /assets/wp-content/uploads/2015/07/windows-10-iot-raspberry-pi-ii.jpg
 categories:
   - IoT
   - Raspberry Pi

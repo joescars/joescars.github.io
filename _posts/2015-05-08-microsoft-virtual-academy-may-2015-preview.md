@@ -6,7 +6,7 @@ author: Joe
 layout: post
 guid: http://joeraio.com/?p=7
 permalink: /microsoft-virtual-academy-may-2015-preview/
-image: /assets/wp-content/uploads/2015/05/microsoft-virtual-academy-free-courses-updated-1200x488.jpg
+#image: /assets/wp-content/uploads/2015/05/microsoft-virtual-academy-free-courses-updated-1200x488.jpg
 categories:
   - Education
   - Microsoft Virtual Academy

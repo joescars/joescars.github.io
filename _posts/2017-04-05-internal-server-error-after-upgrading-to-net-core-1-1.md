@@ -7,7 +7,7 @@ excerpt: Learn how to fix Internal Server Error (An error occurred while startin
 layout: post
 guid: http://joeraio.com/?p=340
 permalink: /internal-server-error-after-upgrading-to-net-core-1-1/
-image: /assets/wp-content/uploads/2017/04/error-while-starting-1.1-web-app-azure-app-service.jpg
+#image: /assets/wp-content/uploads/2017/04/error-while-starting-1.1-web-app-azure-app-service.jpg
 categories:
   - ASP.NET Core
   - Azure App Service

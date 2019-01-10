@@ -7,7 +7,7 @@ author: Joe
 layout: post
 guid: http://joeraio.com/?p=404
 permalink: /building-serverless-applications-on-azure/
-image: /assets/wp-content/uploads/2017/08/functions17-building-serverless-applications-azure.png
+#image: /assets/wp-content/uploads/2017/08/functions17-building-serverless-applications-azure.png
 #bigimg: /assets/wp-content/uploads/2017/08/functions17-building-serverless-applications-azure.png
 categories:
   - Azure Functions

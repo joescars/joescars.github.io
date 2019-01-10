@@ -7,7 +7,7 @@ excerpt: 'Some of the most common questions I get from new developers is "How do
 layout: post
 guid: http://joeraio.com/?p=68
 permalink: /free-web-development-courses/
-image: /assets/wp-content/uploads/2015/06/free-web-development-courses.jpg
+#image: /assets/wp-content/uploads/2015/06/free-web-development-courses.jpg
 categories:
   - Education
   - Microsoft Virtual Academy
