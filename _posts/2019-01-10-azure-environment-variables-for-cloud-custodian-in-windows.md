@@ -34,7 +34,7 @@ set "AZURE_CLIENT_ID=<client id>"
 set "AZURE_CLIENT_SECRET=<secret>"
 ```
 
-## Powershell
+## PowerShell
 
 Open *custodian/scripts/activate.ps1* and add the following to the end of the file.
 
