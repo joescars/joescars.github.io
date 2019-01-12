@@ -1,0 +1,5 @@
+---
+layout: null
+---
+{% for post in site.posts %}{{ post.date | date: "%Y-%m-%d" }}
+{% endfor %}
