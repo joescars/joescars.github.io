@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: 'tags/iot/'
-redirect_from: 'archive/tags/iot/'
+permalink: 'tag/iot/'
+redirect_from: 'archive/tag/iot/'
 title: 'iot'
 tag: 'iot'
 ---

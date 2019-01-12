@@ -28,9 +28,9 @@ tags = []
 taglist_path = File.expand_path("../../_site/archive/taglist.txt", __FILE__)
 File.open(taglist_path, 'r') do |f|
     while tag = f.gets
-        puts ("------------->" + tag)
+        #puts ("------------->" + tag)
         tag = tag.strip
-        tags = tag.split(' ');
+        tags = tag.split(',');
         #tags += [tag] unless tag == "" || tag == "\n"
     end
 end
@@ -49,9 +49,9 @@ end
 for tag in tags
     tagpath = tag.include?(' ') ? tag.downcase.gsub!(' ','-') : tag.downcase
     tagpage_path = tags_folder_path + "/#{tagpath}.md"
-    puts "------->" + tag
-    puts "------->" + tagpage_path
-    write_template_file(tagpage_path, "tags/#{tagpath}/", tag, {tag: tag})
+    #puts "------->" + tag
+    #puts "------->" + tagpage_path
+    write_template_file(tagpage_path, "tag/#{tagpath}/", tag, {tag: tag})
 end
 
 # Create template files for each year and month

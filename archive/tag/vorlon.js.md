@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: 'tags/vorlon.js/'
-redirect_from: 'archive/tags/vorlon.js/'
+permalink: 'tag/vorlon.js/'
+redirect_from: 'archive/tag/vorlon.js/'
 title: 'vorlon.js'
 tag: 'vorlon.js'
 ---

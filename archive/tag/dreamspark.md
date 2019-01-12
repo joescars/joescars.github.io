@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: 'tags/dreamspark/'
-redirect_from: 'archive/tags/dreamspark/'
+permalink: 'tag/dreamspark/'
+redirect_from: 'archive/tag/dreamspark/'
 title: 'dreamspark'
 tag: 'dreamspark'
 ---

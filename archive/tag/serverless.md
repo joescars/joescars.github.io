@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: 'tags/serverless/'
-redirect_from: 'archive/tags/serverless/'
+permalink: 'tag/serverless/'
+redirect_from: 'archive/tag/serverless/'
 title: 'serverless'
 tag: 'serverless'
 ---

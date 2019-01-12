@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: 'tags/wsl/'
-redirect_from: 'archive/tags/wsl/'
+permalink: 'tag/wsl/'
+redirect_from: 'archive/tag/wsl/'
 title: 'wsl'
 tag: 'wsl'
 ---

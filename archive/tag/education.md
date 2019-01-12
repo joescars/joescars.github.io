@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: 'tags/education/'
-redirect_from: 'archive/tags/education/'
+permalink: 'tag/education/'
+redirect_from: 'archive/tag/education/'
 title: 'education'
 tag: 'education'
 ---

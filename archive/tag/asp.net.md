@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: 'tags/asp.net/'
-redirect_from: 'archive/tags/asp.net/'
+permalink: 'tag/asp.net/'
+redirect_from: 'archive/tag/asp.net/'
 title: 'asp.net'
 tag: 'asp.net'
 ---

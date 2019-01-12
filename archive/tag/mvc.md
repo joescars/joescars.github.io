@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: 'tags/mvc/'
-redirect_from: 'archive/tags/mvc/'
+permalink: 'tag/mvc/'
+redirect_from: 'archive/tag/mvc/'
 title: 'mvc'
 tag: 'mvc'
 ---

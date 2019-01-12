@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: 'tags/python/'
-redirect_from: 'archive/tags/python/'
+permalink: 'tag/python/'
+redirect_from: 'archive/tag/python/'
 title: 'python'
 tag: 'python'
 ---

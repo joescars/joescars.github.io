@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: 'tags/wordpress/'
-redirect_from: 'archive/tags/wordpress/'
+permalink: 'tag/wordpress/'
+redirect_from: 'archive/tag/wordpress/'
 title: 'wordpress'
 tag: 'wordpress'
 ---

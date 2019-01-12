@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: 'tags/tutorial/'
-redirect_from: 'archive/tags/tutorial/'
+permalink: 'tag/tutorial/'
+redirect_from: 'archive/tag/tutorial/'
 title: 'tutorial'
 tag: 'tutorial'
 ---

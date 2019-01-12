@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: 'tags/agriculture/'
-redirect_from: 'archive/tags/agriculture/'
+permalink: 'tag/agriculture/'
+redirect_from: 'archive/tag/agriculture/'
 title: 'agriculture'
 tag: 'agriculture'
 ---

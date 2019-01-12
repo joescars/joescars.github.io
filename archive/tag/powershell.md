@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: 'tags/powershell/'
-redirect_from: 'archive/tags/powershell/'
+permalink: 'tag/powershell/'
+redirect_from: 'archive/tag/powershell/'
 title: 'powershell'
 tag: 'powershell'
 ---
