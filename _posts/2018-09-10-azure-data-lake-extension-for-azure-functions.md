@@ -11,7 +11,7 @@ categories:
   - Data Lake
   - Serverless
   - Azure
-tags: [azure, azure functions, data lake, azure, serverless]
+tags: [azure, azure functions, data lake, azure, serverless, open source]
 ---
 As part of our internal hack week a few months back, I built out an extension for Azure Functions that lets you connect directly to an Azure Data Lake Store. This extension can be used as an input or output binding.
 
