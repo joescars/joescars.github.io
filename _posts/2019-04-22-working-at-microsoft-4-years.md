@@ -50,6 +50,6 @@ Most people describe the first few months as ‘drinking from the firehouse’. 
 
 Overall, I enjoy Microsoft’s culture and the amazing people I get to work with daily. I’m proud to work here and plan on being here a very long time.
 
-Please feel free to reach out with any questions if you are looking for more information regarding working at Microsoft. You can hit me up on twitter [@joescars](https://twitter.com/joescars) or email me, *joe dot raio at microsoft.com*.
+Please feel free to reach out with any questions if you are looking for more information regarding working at Microsoft. You can reach me on twitter [@joescars](https://twitter.com/joescars) or email, *joe dot raio at microsoft.com*.
 
 Hope you found this post helpful.
