@@ -15,4 +15,4 @@ Joe Raio is a Principal Software Engineering Manager in Microsoft’s Commercial
 
 Based in Miami, Florida, Joe is an active member of the development community often speaking at local user groups and code camps. Joe has spoken internationally as well at such conference as Code Europe and Functions World. While at Microsoft he has received many honors including Share Fighter Champion and Americas Gold Club.
 
-Outside of Microsoft, Joe enjoys spending time with his wife and daughter & writing music.
+Outside of Microsoft, Joe enjoys spending time with his wife and two daughters & writing music.
