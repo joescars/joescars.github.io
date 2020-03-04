@@ -1,11 +1,11 @@
 ---
-title: Securing Azure Functions with Azure Active Directory
-meta-description: This week marks four years that I have been working at Microsoft. It’s been an incredibly fun & humbling journey so far! In thinking about the past four years...
-excerpt: This week marks four years that I have been working at Microsoft. It’s been an incredibly fun & humbling journey so far! In thinking about the past four years...
+title: Test Azure Functions locally with Azure Active Directory
+meta-description: Test Azure Functions locally with Azure Active Directory
+excerpt: Test Azure Functions locally with Azure Active Directory
 #date: 2018-09-10T14:51:54+00:00
 author: Joe
 layout: post
-permalink: /azure-functions-azure-active-directory/
+permalink: /testing-azure-functions-azure-active-directory/
 categories:
   - Azure Active Directory
   - Azure Functions
