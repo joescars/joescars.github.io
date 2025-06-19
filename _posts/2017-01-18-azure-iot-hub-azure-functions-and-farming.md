@@ -5,7 +5,7 @@ date: 2017-01-18T09:00:34+00:00
 author: Joe
 excerpt: This case study walks you through how we used Azure IoT Hub, Stream Analytics and Azure Functions to monitor the health of plants.
 layout: post
-guid: http://joeraio.com/?p=240
+guid: https://joeraio.com/?p=240
 permalink: /azure-iot-hub-azure-functions-and-farming/
 #image: /assets/wp-content/uploads/2017/01/azure-iot-azure-functions-costa-farms.jpg
 categories:
@@ -16,7 +16,7 @@ tags: [azure functions, iot, microsoft azure, internet of things, agriculture]
 ---
 ![Azure IoT Functions and Costa Farms](/assets/wp-content/uploads/2017/01/azure-iot-azure-functions-costa-farms.jpg)
 
-Late last year I had the opportunity to work with [Costa Farms](http://www.costafarms.com/) on a small proof of concept project. The goal was simple; actively monitor pH levels in their plants water supply and take intelligent action if needed.
+Late last year I had the opportunity to work with [Costa Farms](https://www.costafarms.com/) on a small proof of concept project. The goal was simple; actively monitor pH levels in their plants water supply and take intelligent action if needed.
 
 We were able to accomplish this using [Azure IoT Hub](https://azure.microsoft.com/en-us/services/iot-hub/), [Stream Analytics](https://azure.microsoft.com/en-us/services/stream-analytics/), [Event Hubs](https://azure.microsoft.com/en-us/services/event-hubs/) and [Azure Functions](https://azure.microsoft.com/en-us/services/functions/).
 

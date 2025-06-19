@@ -4,7 +4,7 @@ title: Developing on Microsoft Azure
 date: 2015-05-01T15:46:38+00:00
 author: Joe
 layout: post
-guid: http://joeraio.com/?p=24
+guid: https://joeraio.com/?p=24
 permalink: /developing-on-microsoft-azure/
 #image: /assets/wp-content/uploads/2015/05/developing-on-microsoft-azure.png
 categories:

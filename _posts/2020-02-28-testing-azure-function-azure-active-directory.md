@@ -22,7 +22,7 @@ Solution referenced in this blog post: [Reference Solution from Sahil Malik](htt
 
 - Azure Active Directory -> App Registrations -> New Registration
 - Enter a name
-- For this example use http://localhost:7071 as the redirect URI
+- For this example use https://localhost:7071 as the redirect URI
 
 ![Create new app registration](/assets/post-content/azaad/01-register-app.png)
 
@@ -50,7 +50,7 @@ In our case, the client is Postman but will be a reactjs app in the future.
 
 - From within the App Registration page, click on **Authentication**
 - Click on **Add a Platform** , Select Web
-- Enter in http://localhost:7071 (again, for example purposes only)
+- Enter in https://localhost:7071 (again, for example purposes only)
 - Check **ID tokens** under implicit grant, Click configure
 
 #### Generate Secret
@@ -98,7 +98,7 @@ https://login.microsoftonline.com/{TENANT NAME}.onmicrosoft.com/oauth2/v2.0/auth
 ![Local Function Running](/assets/post-content/azaad/04-localhost-code.png)
 
 Grab the url from the browser and copy the value for **code** and keep it handy.
-http://localhost:7071/?code=**[GRAB THIS VALUE]**&session_state=64fae8b1-bb95-427e-9f42-086e28e1fc92
+https://localhost:7071/?code=**[GRAB THIS VALUE]**&session_state=64fae8b1-bb95-427e-9f42-086e28e1fc92
 
 ### Use Postman to Generate Auth Token
 
@@ -108,7 +108,7 @@ Create a new HTTP POST in Postman with the following settings:
 - Headers:
   - Content-Type: application/x-form-urlencoded
 - Body:
-  - redirect_uri: http://localhost:7071/
+  - redirect_uri: https://localhost:7071/
   - client_id: client id of client app registration
   - grant_type: authorization_code
   - client_secret: value that you saved earlier
@@ -134,7 +134,7 @@ Copy the contents of the **access_token** feild as we will use it in the next se
 
 Create a new HTTP POST in Postman with the following settings:
 
-- GET: http://localhost:7071/authenticated
+- GET: https://localhost:7071/authenticated
   - This is the same function app to test if authenteication is working. You can substitue this for your application.
 - Headers:
   - Authorization: Bearer **access_token**

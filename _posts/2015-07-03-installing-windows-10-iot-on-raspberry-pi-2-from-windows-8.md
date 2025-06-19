@@ -4,7 +4,7 @@ title: Installing Windows 10 IoT on Raspberry Pi 2 from Windows 8
 date: 2015-07-03T12:35:25+00:00
 author: Joe
 layout: post
-guid: http://joeraio.com/?p=79
+guid: https://joeraio.com/?p=79
 permalink: /installing-windows-10-iot-on-raspberry-pi-2-from-windows-8/
 #image: /assets/wp-content/uploads/2015/07/windows-10-iot-raspberry-pi-ii.jpg
 categories:
@@ -31,21 +31,21 @@ With that said continue at your own risk! 🙂
 
 #### Installation Instructions
 
-  * Login to  <http://connect.microsoft.com> using your Microsoft Account
+  * Login to  <https://connect.microsoft.com> using your Microsoft Account
   * Go to Directory -> Windows Embedded -> Join &#8220;_Windows Developer for IoT_&#8221; program
 
 ![Windows 10 IoT Program](/assets/wp-content/uploads/2015/07/microsoft-connect-win-10-iot-program.png)
 
   * Once joined, go to downloads and download **Windows 10 IoT Core Insider Preview Image for Raspberry Pi 2**
   * At the time of this post the latest build is 5/12/2015
-  * From here you can download the zip directly or use the [Microsoft File Transfer Manager](http://transfers.ds.microsoft.com/ftm/default.aspx?target=install)
+  * From here you can download the zip directly or use the [Microsoft File Transfer Manager](https://transfers.ds.microsoft.com/ftm/default.aspx?target=install)
 
 ![Windows 10 IoT Core Download](/assets/wp-content/uploads/2015/07/windows-iot-core-download.png)
 
   * We now need to download three more utilities so that we can do the install from Windows 8 or Windows 7 
       * [SD Formatter](https://www.sdcard.org/downloads/formatter_4/index.html) – I always format my SD card before starting
-      * [ImgMount](http://forum.xda-developers.com/attachment.php?attachmentid=1593476&d=1356534867) – This lets you mount the image and create a VHD from the mounted image.
-      * [WinImage](http://www.winimage.com/download.htm) – This program lets you write the VHD to an eternal drive
+      * [ImgMount](https://forum.xda-developers.com/attachment.php?attachmentid=1593476&d=1356534867) – This lets you mount the image and create a VHD from the mounted image.
+      * [WinImage](https://www.winimage.com/download.htm) – This program lets you write the VHD to an eternal drive
   * I took everything and copied to one folder on my machine to make things easier. In the example I named it c:\w10iot
 
 ![Windows 10 IoT Folder](/assets/wp-content/uploads/2015/07/w10iot-folder.png)

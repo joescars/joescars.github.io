@@ -4,7 +4,7 @@ title: Using Google Authentication with ASP.NET Core (ASP.NET 5)
 date: 2016-03-04T17:30:50+00:00
 author: Joe
 layout: post
-guid: http://joeraio.com/?p=167
+guid: https://joeraio.com/?p=167
 permalink: /using-google-authentication-with-asp-net-core-asp-net-5/
 #image: /assets/wp-content/uploads/2016/03/asp-net-core-google-authentication-mvc-ef.png
 categories:

@@ -4,7 +4,7 @@ title: Using DreamSpark to Create a WordPress Site on Azure
 date: 2015-09-19T18:05:45+00:00
 author: Joe
 layout: post
-guid: http://joeraio.com/?p=128
+guid: https://joeraio.com/?p=128
 permalink: /using-dreamspark-to-create-a-wordpress-site-on-azure/
 #image: /assets/wp-content/uploads/2016/03/Wordpress-Azure-DreamSpark.jpg
 categories:

@@ -5,7 +5,7 @@ date: 2017-01-23T11:00:33+00:00
 author: Joe
 excerpt: 'Learn how easy it is to deploy an Azure Web App or Azure function from a specific folder inside of a GitHub repository. This lets you keep all your related projects organized into one main folder. '
 layout: post
-guid: http://joeraio.com/?p=248
+guid: https://joeraio.com/?p=248
 permalink: /deploy-azure-web-app-or-azure-function-from-repository-folder/
 #image: /assets/wp-content/uploads/2017/01/azure-functions-deployment.jpg
 categories:

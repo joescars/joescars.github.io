@@ -5,7 +5,7 @@ date: 2017-04-05T11:38:28+00:00
 author: Joe
 excerpt: Learn how to fix Internal Server Error (An error occurred while starting the application.) after upgrading your Azure web app to .NET Core 1.1
 layout: post
-guid: http://joeraio.com/?p=340
+guid: https://joeraio.com/?p=340
 permalink: /internal-server-error-after-upgrading-to-net-core-1-1/
 #image: /assets/wp-content/uploads/2017/04/error-while-starting-1.1-web-app-azure-app-service.jpg
 categories:

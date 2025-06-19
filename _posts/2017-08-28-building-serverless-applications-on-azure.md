@@ -5,7 +5,7 @@ excerpt: You can watch my talk from Functions17 in Toronto below. This includes 
 date: 2017-08-28T07:12:36+00:00
 author: Joe
 layout: post
-guid: http://joeraio.com/?p=404
+guid: https://joeraio.com/?p=404
 permalink: /building-serverless-applications-on-azure/
 #image: /assets/wp-content/uploads/2017/08/functions17-building-serverless-applications-azure.png
 #bigimg: /assets/wp-content/uploads/2017/08/functions17-building-serverless-applications-azure.png

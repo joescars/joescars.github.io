@@ -5,7 +5,7 @@ date: 2015-08-24T10:37:31+00:00
 author: Joe
 excerpt: This video will walk you through how to deploy Vorlon.JS to an Azure Web App using Git version control. The pre-requisites for this video are that you have an active Microsoft Azure account and node.js installed.
 layout: post
-guid: http://joeraio.com/?p=114
+guid: https://joeraio.com/?p=114
 permalink: /how-to-deploy-vorlon-js-to-azure-web-app/
 #image: /assets/wp-content/uploads/2015/08/deploy-vorlonjs-to-azure-web-app.png
 categories:
@@ -16,7 +16,7 @@ tags: [javascript, microsoft azure, web development, vorlon.js]
 ---
 ![How to Deploy Vorlon.JS to Azure Web App](/assets/wp-content/uploads/2015/08/deploy-vorlonjs-to-azure-web-app.png)
 
-This video will walk you through how to deploy [Vorlon.JS](http://www.vorlonjs.io/) to an Azure Web App using [Git](https://git-scm.com/) version control. The pre-requisites for this video are that you have an active Microsoft Azure account and node.js installed.
+This video will walk you through how to deploy [Vorlon.JS](https://www.vorlonjs.io/) to an Azure Web App using [Git](https://git-scm.com/) version control. The pre-requisites for this video are that you have an active Microsoft Azure account and node.js installed.
 
 <iframe src="https://channel9.msdn.com/Blogs/joeraio/Deploying-VorlonJS-to-Azure-Web-App-for-Remote-Debugging/player" width="640" height="360" allowFullScreen frameBorder="0"></iframe>
 
