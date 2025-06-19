@@ -16,5 +16,5 @@ Fast forward a few years and I joined a band that would become **Scars of Life**
 Our music is still available through every major streaming service and retailer. If you like heavy music, give us a listen:
 <i class="fa-brands fa-spotify"></i> [Spotify](https://open.spotify.com/artist/3Dyphy0SsuQVv633xDDxz0) | <i class="fa-brands fa-apple"></i> [Apple Music](https://itunes.apple.com/us/artist/scars-of-life/6136926) | <i class="fa-brands fa-youtube"></i> [YouTube](https://www.youtube.com/channel/UCryyuEDDJwq8HvPdvyKX1Jw/featured) | <i class="fa-brands fa-lastfm"></i> [last.fm](https://www.last.fm/music/Scars+of+Life)
 
-<iframe src="https://open.spotify.com/embed/artist/3Dyphy0SsuQVv633xDDxz0" width="840" height="480" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://open.spotify.com/embed/artist/3Dyphy0SsuQVv633xDDxz0" width="600" height="480" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
