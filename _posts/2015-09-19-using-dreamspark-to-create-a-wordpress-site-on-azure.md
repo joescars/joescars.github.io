@@ -18,7 +18,7 @@ tags: [dreamspark, education, microsoft azure, wordpress, tutorial]
 
 The following presentation will walk you through creating / activating your DreamSpark account, activating your Azure credit, and finally installing and setting up your WordPress site. Enjoy!
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/yfkr6w71CGdzJz" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/yfkr6w71CGdzJz" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 
-**[Create a WordPress on Azure using DreamSpark](//www.slideshare.net/joescars/create-a-wordpress-on-azure-using-dreamspark)** from **[joescars](//www.slideshare.net/joescars)**
+**[Create a WordPress on Azure using DreamSpark](https://www.slideshare.net/joescars/create-a-wordpress-on-azure-using-dreamspark)** from **[joescars](https://www.slideshare.net/joescars)**
 

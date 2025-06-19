@@ -21,4 +21,4 @@ You can watch my talk from [#Functions17](https://functions.world) in Toronto be
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OmhNwSz_V00" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Slides are available here: <https://www.slideshare.net/JoeRaio/building-serverless-applications-on-azure>
+Slides are available here: <https:https://www.slideshare.net/JoeRaio/building-serverless-applications-on-azure>

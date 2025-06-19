@@ -36,6 +36,6 @@ We then switch over to the MAC and continue with the following
   * Building the project and running locally using Kestrel Web server
   * Pushing the updates back up to Azure using Git
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/gKlq5PT1Hep7zQ" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe> 
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/gKlq5PT1Hep7zQ" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe> 
 
-**[Getting Started with ASP.net Core 1.0](//www.slideshare.net/joescars/getting-started-with-aspnet-core-10)** from **[joescars](//www.slideshare.net/joescars)**
+**[Getting Started with ASP.net Core 1.0](https://www.slideshare.net/joescars/getting-started-with-aspnet-core-10)** from **[joescars](https://www.slideshare.net/joescars)**
