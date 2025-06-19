@@ -1,6 +1,7 @@
 ---
 id: 68
 title: Free Web Development Courses
+description: Free Web Development Courses
 date: 2015-06-02T10:33:11+00:00
 author: Joe
 excerpt: 'Some of the most common questions I get from new developers is "How do I get started?" and "Are there free resources online for me to learn?". The good news is that it is very easy to get started and Microsoft Virtual Academy﻿ is a phenomenal free resource online with hundreds of courses. '

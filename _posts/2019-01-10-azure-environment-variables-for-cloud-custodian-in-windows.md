@@ -1,6 +1,6 @@
 ---
 title: Azure environment variables for Cloud Custodian in Windows
-meta-description: Learn how to set up Azure service principal authentication environment variables for use with Cloud Custodian control plane.
+description: Learn how to set up Azure service principal authentication environment variables for use with Cloud Custodian control plane.
 excerpt: Learn how to set up Azure service principal authentication environment variables for use with Cloud Custodian control plane.
 #date: 2018-09-10T14:51:54+00:00
 author: Joe

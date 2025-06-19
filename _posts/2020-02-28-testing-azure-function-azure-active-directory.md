@@ -1,6 +1,6 @@
 ---
 title: Test Azure Functions locally with Azure Active Directory
-meta-description: Test Azure Functions locally with Azure Active Directory
+description: Test Azure Functions locally with Azure Active Directory
 excerpt: Test Azure Functions locally with Azure Active Directory
 #date: 2018-09-10T14:51:54+00:00
 author: Joe
