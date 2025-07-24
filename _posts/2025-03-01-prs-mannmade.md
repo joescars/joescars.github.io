@@ -1,6 +1,7 @@
 ---
 title: Upgrading My PRS CE24 with a Mannmade USA Tremolo
 #date: YYYY-MM-DD HH:MM:SS +/-TTTT
+author: Joe
 categories: [guitar, guitar mods, prs]
 tags: [PRS, Mannmade, guitar, tremelo, guitarmods, musicgear, CE24]     # TAG names should always be lowercase
 ---
