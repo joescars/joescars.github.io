@@ -7,7 +7,7 @@ author: Joe
 title: About Joe Raio
 ---
 
-Joe Raio is a Principal Technical Program Manager Lead in Microsoft’s Commercial Software Engineering (CSE) organization where he works with the top Financial Services organizations to develop innovative cloud solutions using Microsoft Azure.
+Joe Raio is a Technical Program & Product Director at Microsoft, where he works with top Financial Services organizations to develop innovative cloud solutions using Microsoft Azure.
 
 A Miami native transplanted to Redmond, Washington, Joe is an active member of the development community often speaking at local user groups and code camps. Joe has spoken internationally as well at such conference as Code Europe and Functions World. While at Microsoft he has received many honors including Share Fighter Champion and Americas Gold Club.
 
