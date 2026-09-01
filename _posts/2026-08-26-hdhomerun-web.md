@@ -1,41 +1,45 @@
 ---
-title: Building a Mobile-Friendly Web UI for My HDHomeRun Tuner
+title: "LunaTV: A Mobile-First HDHomeRun Client for the Browser and Roku"
 author: Joe
 categories: [hdhomerun, docker, nodejs, development, homelab, self-hosted]
-tags: [hdhomerun, docker, nodejs, express, htmx, bootstrap, self-hosted, homelab, over-the-air-tv]     # TAG names should always be lowercase
+tags: [hdhomerun, docker, nodejs, express, htmx, bootstrap, roku, self-hosted, homelab, over-the-air-tv]
 ---
 
-## What is hdhomerun-web?
+## What is LunaTV?
 
-`hdhomerun-web` is a self-hosted, mobile-responsive web app for managing a [HDHomeRun](https://www.silicondust.com/) network tuner — a friendlier alternative to the device's own built-in web interface, which is functional but clearly designed for a desktop browser circa 2010.
+[LunaTV](http://joeraio.com/lunatv) is a mobile-first, self-hosted client for watching and browsing live TV from an [HDHomeRun](https://www.silicondust.com/) tuner. It also includes an admin interface that makes device setup and management much friendlier than the tuner’s built-in web UI, plus a sideloadable Roku client powered by the same server.
 
-You can view the code here: [https://github.com/joescars/hdhomerunweb](https://github.com/joescars/hdhomerunweb)
+It runs as a small Docker container, talks directly to the HDHomeRun’s local HTTP API, and gets program data from Silicondust’s cloud Guide API using the `DeviceAuth` token supplied by the tuner.
 
-## Why Did I Build This?
+## Watching Live TV
 
-I picked up an HDHomeRun FLEX 4K to pull in over-the-air channels on my home network. The device's built-in web UI works, but it's cramped on a phone, has no TV guide at all, and hides some genuinely useful controls (favoriting channels, hiding ones you don't want) behind a fiddly star-icon interaction. I wanted something I could pull up on my phone from the couch, see what's on, and manage channels without squinting.
+The default landing page is a TV guide with program titles, times, episode details, synopses, and artwork. A one-tap Watch button opens a full-screen player directly over the guide, so closing it returns you to the same guide position and filters. There is also a denser channel-by-time grid at `/guide/grid` for desktop use.
 
-## Key Features
+HDHomeRun tuners stream raw MPEG-2/AC-3, which browsers do not decode natively. LunaTV transcodes an active channel to H.264/AAC HLS with Intel Quick Sync Video (QSV) hardware acceleration, then plays it with [hls.js](https://github.com/video-dev/hls.js) or native HLS on iOS Safari. Playback includes closed captions, and inactive tuner sessions are released automatically.
 
-- **System Menu** — device info at a glance: friendly name, model, firmware, device ID, tuner count, with a link straight to the device's own system log.
-- **TV Guide** — a real program guide (titles, times, episode info, synopses, artwork) per channel, with a "NOW" indicator for what's currently airing.
-- **Channel Lineup** — the full channel list, including hidden and unsubscribed channels, with per-channel signal strength/quality and codec info. Filter toggles for Favorites, HD, and Show Hidden, plus one-tap buttons to favorite or hide any channel, synced straight back to the device.
-- **Detect Channels** — start or abort a channel scan, with a source selector (Antenna/Cable) and live progress.
-- **System Status** — per-tuner status: currently tuned channel, signal strength/quality meters, and network rate, auto-refreshing.
-- **Light/dark mode** toggle, remembered across visits.
+With an optional, separately-run HDHomeRun RECORD engine, LunaTV can also browse completed recordings, play them through the same HLS pipeline, delete recordings, and schedule the currently playing airing for recording.
 
-The whole thing is server-rendered — Node/Express with EJS templates, [htmx](https://htmx.org/) for the small bits of live-updating UI (scan progress, tuner status, per-row favorite/hide toggles), and Bootstrap 5 for styling. No SPA build step, no client-side framework. It ships as a single Docker container configured entirely through a `.env` file.
+## Device Administration
 
-## The Fun Part: Reverse-Engineering the Undocumented Bits
+The admin area keeps the HDHomeRun-management features that started the project:
 
-HDHomeRun's [official HTTP API docs](https://info.hdhomerun.com/info/http_api) cover the basics — `discover.json`, `lineup.json`, streaming URLs — but leave out a bunch of things the device's own web UI clearly uses. Since the device serves its own UI as plain HTML and JavaScript, I could just view-source it to find the rest:
+- **System Menu** — device name, model, firmware, device ID, tuner count, and a link to the tuner’s system log.
+- **Channel Lineup** — all channels, including hidden and unsubscribed ones, with signal information and controls to favorite or hide a channel on the tuner itself.
+- **Detect Channels** — start or abort a scan and select the available source, such as Antenna or Cable.
+- **System Status** — auto-refreshing status for every tuner, including tuned channel, signal metrics, and network rate.
 
-- `lineup.json?show=found` vs `?show=all` — the bare endpoint with no query string actually returns a narrower "favorites-relevant" subset of channels, which is why my first pass showed fewer channels than the device's own lineup page.
-- `lineup.post?favorite=<mode><GuideNumber>` — a `+`/`-`/`x` prefix on the channel number sets it to favorite, normal, or hidden. This isn't documented anywhere, but it's exactly what the star icon on the device's own channel list calls.
-- `lineup.post?scan=start&source=Antenna` — the scan endpoint accepts an optional source parameter for devices that support multiple tuning sources.
+## Roku Support
 
-The biggest find, though, was Silicondust's separate [documentation wiki](https://github.com/Silicondust/documentation/wiki), which covers their *cloud* Guide/DVR API (`api.hdhomerun.com`) — full program guide data, search, "up next," and DVR recording rules, all authenticated with a `DeviceAuth` token your own tuner hands out via `discover.json`. As of a recent update, guide data is available with no subscription required. That's what powers the TV Guide page — real program data, titles, episode numbers, synopses, and artwork, with zero guide data baked into the device itself.
+The repository also includes a sideloadable Roku client. It has a live channel-preview option in the guide, recently watched channels, a now/next playback overlay, closed captions, and selectable streaming modes.
 
-## Final Thoughts
+The usual H.264 and HEVC modes use the same QSV transcode pipeline as the browser client. An experimental Direct mode remuxes without transcoding and is currently the option that supports ATSC 3.0 (NextGen TV) channels.
 
-This was a satisfying weekend-project kind of build: a small, focused tool that fixes a specific annoyance (checking channels/guide from my phone) using nothing but a device I already own and a wall of undocumented JSON. If you've got an HDHomeRun on your network, the code's up at [github.com/joescars/hdhomerunweb](https://github.com/joescars/hdhomerunweb) — clone it, point `HDHOMERUN_HOST` at your device's IP, and `docker compose up`.
+## The Stack
+
+LunaTV is server-rendered with Node.js, Express, and EJS—there is no SPA build step. [htmx](https://htmx.org/) handles small live-updating interactions such as scan progress, tuner status, and channel controls, while Bootstrap 5 supplies the admin UI. [jellyfin-ffmpeg](https://github.com/jellyfin/jellyfin-ffmpeg) provides the current Intel media driver support needed for QSV-accelerated streaming.
+
+## Running It
+
+LunaTV starts with `docker compose up -d --build` and listens on port `8080` by default. Configure it in `.env`, using the tuner’s LAN IP address rather than its `.local` mDNS name—the default Docker bridge network cannot resolve mDNS names. Live playback requires an Intel GPU with QSV support exposed to the container through `/dev/dri`; guide, administration, and other non-playback features work without it.
+
+The project is available at [joeraio.com/lunatv](http://joeraio.com/lunatv). If you have an HDHomeRun on your network, clone it, point `HDHOMERUN_HOST` at the tuner’s LAN IP, and run `docker compose up -d --build`.
