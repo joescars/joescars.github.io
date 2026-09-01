@@ -4,6 +4,7 @@
 
 - This is a Ruby/Jekyll site using the `jekyll-theme-chirpy` gem; theme layouts and includes are not vendored here. Repository overrides are `_config.yml`, `_plugins/`, `_tabs/`, `index.html`, `_posts/`, and `_data/`.
 - Add dated posts under `_posts/`; pages in `_tabs/` are the `tabs` collection and are emitted at `/:title/`. Post URLs default to `/posts/:title/` unless a post sets `permalink`.
+- Quote post front matter titles containing `:` so YAML parses them as strings.
 - `_plugins/posts-lastmod-hook.rb` derives post modification dates from Git history. Do not build from a source tree without `.git` when last-modified metadata matters.
 - `assets/lib` is the `chirpy-static-assets` Git submodule. Treat its minified third-party content as external; update it through the submodule rather than editing vendored files.
 
@@ -16,5 +17,5 @@
 
 ## Delivery and formatting
 
-- GitHub Pages deploys only after pushes to `main` or `master`; CI builds and tests before deployment.
+- GitHub Pages deploys only after pushes to `main` or `master`; CI uses a full Git checkout, builds with Ruby 3.3 in production mode, then runs `htmlproofer` with external URLs disabled before deployment.
 - Follow `.editorconfig`: two spaces, LF endings, final newlines; do not trim trailing whitespace in Markdown.
