@@ -7,7 +7,7 @@ tags: [hdhomerun, docker, nodejs, express, htmx, bootstrap, roku, self-hosted, h
 
 ## What is LunaTV?
 
-[LunaTV](http://joeraio.com/lunatv) is a mobile-first, self-hosted client for watching and browsing live TV from an [HDHomeRun](https://www.silicondust.com/) tuner. It also includes an admin interface that makes device setup and management much friendlier than the tuner’s built-in web UI, plus a sideloadable Roku client powered by the same server.
+[LunaTV](https://joeraio.com/lunatv) is a mobile-first, self-hosted client for watching and browsing live TV from an [HDHomeRun](https://www.silicondust.com/) tuner. It also includes an admin interface that makes device setup and management much friendlier than the tuner’s built-in web UI, plus a sideloadable Roku client powered by the same server.
 
 It runs as a small Docker container, talks directly to the HDHomeRun’s local HTTP API, and gets program data from Silicondust’s cloud Guide API using the `DeviceAuth` token supplied by the tuner.
 
@@ -42,4 +42,4 @@ LunaTV is server-rendered with Node.js, Express, and EJS—there is no SPA build
 
 LunaTV starts with `docker compose up -d --build` and listens on port `8080` by default. Configure it in `.env`, using the tuner’s LAN IP address rather than its `.local` mDNS name—the default Docker bridge network cannot resolve mDNS names. Live playback requires an Intel GPU with QSV support exposed to the container through `/dev/dri`; guide, administration, and other non-playback features work without it.
 
-The project is available at [joeraio.com/lunatv](http://joeraio.com/lunatv). If you have an HDHomeRun on your network, clone it, point `HDHOMERUN_HOST` at the tuner’s LAN IP, and run `docker compose up -d --build`.
+The project is available at [joeraio.com/lunatv](https://joeraio.com/lunatv). If you have an HDHomeRun on your network, clone it, point `HDHOMERUN_HOST` at the tuner’s LAN IP, and run `docker compose up -d --build`.
