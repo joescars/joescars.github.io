@@ -1,6 +1,9 @@
 ---
 id: 16
 title: How Can I Learn MVC?
+description: >-
+  Discovering the free courses that finally got me out of a Web Forms comfort zone
+  and into ASP.NET MVC, AngularJS, and Web APIs.
 date: 2015-04-28T14:53:46+00:00
 author: Joe
 layout: post

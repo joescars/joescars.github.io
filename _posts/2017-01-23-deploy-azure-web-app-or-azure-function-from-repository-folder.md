@@ -1,6 +1,9 @@
 ---
 id: 248
 title: Deploy Azure Web App or Azure Function from Repository Folder
+description: >-
+  Deploy just one folder of a multi-project GitHub repository to an Azure Web App
+  or Azure Function app with a single app setting.
 date: 2017-01-23T11:00:33+00:00
 author: Joe
 excerpt: 'Learn how easy it is to deploy an Azure Web App or Azure function from a specific folder inside of a GitHub repository. This lets you keep all your related projects organized into one main folder. '

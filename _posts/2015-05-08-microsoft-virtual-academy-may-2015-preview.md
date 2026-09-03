@@ -1,6 +1,9 @@
 ---
 id: 7
 title: Microsoft Virtual Academy May 2015 Preview
+description: >-
+  The best free cloud and web development training on the web: what's new on
+  Microsoft Virtual Academy in May 2015.
 date: 2015-05-08T14:17:22+00:00
 author: Joe
 layout: post

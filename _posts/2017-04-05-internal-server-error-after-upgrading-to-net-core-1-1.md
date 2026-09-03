@@ -1,6 +1,9 @@
 ---
 id: 340
 title: Internal Server Error after Upgrading to .NET Core 1.1
+description: >-
+  Fix the "An error occurred while starting the application" error after upgrading
+  your Azure Web App to .NET Core 1.1 by clearing stale wwwroot files.
 date: 2017-04-05T11:38:28+00:00
 author: Joe
 excerpt: Learn how to fix Internal Server Error (An error occurred while starting the application.) after upgrading your Azure web app to .NET Core 1.1
@@ -18,7 +21,7 @@ tags: [asp.net core, azure app service, microsoft azure]
 
 So I decided to start upgrading all my Azure Web Apps and associated NuGet packages to to .NET Core 1.1. The process was very simple and everything worked perfectly locally.
 
-Naturally, I pushed my update to my GitHub repo, Azure takes over and does the deployment. Then.. **<span style="color: #ff0000;">FAIL</span>**<figure id="attachment_358" style="width: 840px" class="wp-caption alignleft">
+Naturally, I pushed my update to my GitHub repo, Azure takes over and does the deployment. Then.. **<span style="color: #ff0000;">FAIL</span>**
 
 ![An error occurred while starting the application](/assets/wp-content/uploads/2017/04/web-error-2.png)
 ```

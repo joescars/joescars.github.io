@@ -1,6 +1,10 @@
 ---
 title: "LunaTV: A Mobile-First HDHomeRun Client for the Browser and Roku"
 author: Joe
+pin: true
+description: >-
+  LunaTV is a mobile-first, self-hosted HDHomeRun client for the browser and Roku —
+  live TV guide, QSV-accelerated HLS transcoding, and friendlier device admin.
 categories: [hdhomerun, docker, nodejs, development, homelab, self-hosted]
 tags: [hdhomerun, docker, nodejs, express, htmx, bootstrap, roku, self-hosted, homelab, over-the-air-tv]
 ---

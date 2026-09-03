@@ -1,6 +1,9 @@
 ---
 id: 162
 title: Getting started with ASP.NET Core 1.0
+description: >-
+  From my South Florida Code Camp 2016 session: getting started with ASP.NET Core
+  1.0 on Windows and macOS, then deploying to Azure via Git.
 date: 2016-02-26T09:27:55+00:00
 author: Joe
 layout: post

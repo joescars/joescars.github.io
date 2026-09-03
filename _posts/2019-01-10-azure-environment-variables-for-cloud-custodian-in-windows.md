@@ -9,11 +9,11 @@ permalink: /azure-environment-variables-for-cloud-custodian-in-windows/
 categories:
   - Control Plane
   - Cloud Custodian
-  - Python
+  - python
   - Powershell
   - Open Source
 tags: [cloud custodian, control plane, python, azure, powershell, open source, windows, wsl, capital one]
-#bigimg: /assets/post-content/cloud_governance_hero.jpg
+image: /assets/post-content/cloud_governance_hero.jpg
 ---
 This week I had the opportunity to hack with my colleagues on [Cloud Custodian](https://cloudcustodian.io).
 

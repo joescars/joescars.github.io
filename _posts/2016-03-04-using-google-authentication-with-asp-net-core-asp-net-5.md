@@ -1,6 +1,9 @@
 ---
 id: 167
 title: Using Google Authentication with ASP.NET Core (ASP.NET 5)
+description: >-
+  A step-by-step guide to integrating Google OAuth 2.0 login into an ASP.NET Core
+  (ASP.NET 5 / MVC 6) application.
 date: 2016-03-04T17:30:50+00:00
 author: Joe
 layout: post

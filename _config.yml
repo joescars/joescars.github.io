@@ -14,12 +14,14 @@ timezone: America/New_York
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Joe's Blog # the main title
+title: Joe Raio # the main title
 
-tagline: tech, music, fun, all the stuff
+tagline: Technical Program & Product Director at Microsoft
 
 description: >- # used by seo meta and the atom feed
-  Music Lover, Technical Program & Product Director @ Microsoft
+  Joe Raio is a Technical Program & Product Director at Microsoft, working with
+  Financial Services organizations on innovative Azure solutions. He writes about
+  cloud development, serverless, and home lab projects — and occasionally guitars.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -34,7 +36,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: joe
+  name: Joe Raio
   email: joescars@users.noreply.github.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -69,7 +71,7 @@ analytics:
     id: # fill in your Matomo ID
     domain: # fill in your Matomo domain
   cloudflare:
-    id: "dd38464ec21a4e30b05cf482dc21c3b1"
+    id: # disabled — consolidated on Google Analytics
   fathom:
     id: # fill in your Fathom Site ID
 
@@ -88,7 +90,7 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-theme_mode: light
+# theme_mode: light # uncomment to lock the scheme; leaving it empty follows the system and enables the toggle
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
@@ -132,13 +134,13 @@ comments:
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
   self_host:
-    enabled: # boolean, keep empty means false
+    enabled: true # serve bundled libraries from the local `assets/lib` submodule instead of CDNs
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
-    env: # [development | production]
+    env: production # self-host in production builds only; dev keeps CDN for speed
 
 pwa:
-  enabled: false # The option for PWA feature (installable)
+  enabled: true # The option for PWA feature (installable)
   cache:
     enabled: true # The option for PWA offline cache
     # Paths defined here will be excluded from the PWA cache.

@@ -1,6 +1,9 @@
 ---
 id: 295
 title: Azure Functions with Multiple Output Bindings
+description: >-
+  Create an Azure Function that writes to both Azure Table Storage and a Storage
+  Queue from a single run using built-in output bindings.
 date: 2017-03-19T21:28:45+00:00
 author: Joe
 excerpt: Step by step guide on creating an Azure Function with multiple output bindings.

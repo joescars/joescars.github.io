@@ -1,6 +1,9 @@
 ---
 id: 51
 title: Build 2015 Highlights and Windows 10
+description: >-
+  A look at the free Microsoft Virtual Academy course covering the highlights of
+  //build 2015 — Windows 10, Edge, and Universal Windows apps.
 date: 2015-05-18T09:28:36+00:00
 author: Joe
 layout: post

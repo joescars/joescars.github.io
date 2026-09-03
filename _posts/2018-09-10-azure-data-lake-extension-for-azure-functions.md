@@ -1,6 +1,9 @@
 ---
 id: 421
 title: Azure Data Lake Extension for Azure Functions
+description: >-
+  An Azure Functions extension for connecting directly to Azure Data Lake Store as
+  an input or output binding — built during Microsoft hack week.
 date: 2018-09-10T14:51:54+00:00
 author: Joe
 layout: post

@@ -2,8 +2,12 @@
 title: Upgrading My PRS CE24 with a Mannmade USA Tremolo
 #date: YYYY-MM-DD HH:MM:SS +/-TTTT
 author: Joe
+description: >-
+  Upgrading my PRS CE24 with a Mannmade USA tremolo — stability, feel, and build
+  quality improvements that transformed the guitar.
+image: /assets/post-content/prs-mannmade/prs-mannmade-usa-tremelo-1.jpeg
 categories: [guitar, guitar mods, prs]
-tags: [PRS, Mannmade, guitar, tremelo, guitarmods, musicgear, CE24]     # TAG names should always be lowercase
+tags: [prs, mannmade, guitar, tremolo, guitarmods, musicgear, ce24]     # TAG names should always be lowercase
 ---
 
 As a guitarist, I'm always looking for ways to improve my instrument's performance and feel. When I decided to upgrade the stock tremolo system on my PRS CE24, I knew I wanted something that would deliver superior quality, better functionality, and enhanced playing experience. After researching various options, I settled on the Mannmade USA tremolo system – and I couldn't be happier with the results.
@@ -41,11 +45,10 @@ One of the most noticeable improvements is the weight difference. The Mannmade t
 
 ## The Installation Process
 
-![Installation Process](assets/post-content/prs-mannmade/prs-mannmade-usa-tremelo-1.jpeg)
 
 One of the most pleasant surprises about this upgrade was how straightforward the installation process turned out to be. Mannmade designed their system with easy installation in mind:
 
-![Before and After Comparison](assets/post-content/prs-mannmade/prs-mannmade-usa-tremelo-2.jpeg)
+![Before and After Comparison](/assets/post-content/prs-mannmade/prs-mannmade-usa-tremelo-2.jpeg)
 
 ### Step-by-Step Installation
 
@@ -54,15 +57,15 @@ One of the most pleasant surprises about this upgrade was how straightforward th
 3. **Installation**: The Mannmade system drops right in with minimal adjustment needed
 4. **Setup**: Fine-tune the action, intonation, and tremolo tension
 
-![Installation Details](assets/post-content/prs-mannmade/prs-mannmade-usa-tremelo-3.jpeg)
+![Installation Details](/assets/post-content/prs-mannmade/prs-mannmade-usa-tremelo-3.jpeg)
 
 The beauty of this upgrade is that it requires no permanent modifications to the guitar. The Mannmade tremolo is designed to be a direct replacement, maintaining the original routing and mounting points.
 
-![Component Details](assets/post-content/prs-mannmade/prs-mannmade-usa-tremelo-4.jpeg)
+![Component Details](/assets/post-content/prs-mannmade/prs-mannmade-usa-tremelo-4.jpeg)
 
 ## Quality Differences: Night and Day
 
-![Quality Comparison](assets/post-content/prs-mannmade/prs-mannmade-usa-tremelo-5.jpeg)
+![Quality Comparison](/assets/post-content/prs-mannmade/prs-mannmade-usa-tremelo-5.jpeg)
 
 The difference in build quality between the stock and Mannmade systems is remarkable:
 
@@ -73,7 +76,7 @@ The difference in build quality between the stock and Mannmade systems is remark
 - More consistent spring tension
 - Better overall fit and finish
 
-![Engineering Details](assets/post-content/prs-mannmade/prs-mannmade-usa-tremelo-6.jpeg)
+![Engineering Details](/assets/post-content/prs-mannmade/prs-mannmade-usa-tremelo-6.jpeg)
 
 ### Materials Upgrade
 
@@ -82,7 +85,7 @@ The difference in build quality between the stock and Mannmade systems is remark
 - More durable pivot points
 - Corrosion-resistant hardware
 
-![Material Quality](assets/post-content/prs-mannmade/prs-mannmade-usa-tremelo-7.jpeg)
+![Material Quality](/assets/post-content/prs-mannmade/prs-mannmade-usa-tremelo-7.jpeg)
 
 ## Performance Improvements
 
@@ -94,7 +97,7 @@ The improved design and tighter tolerances translate directly to better tuning s
 
 The action is noticeably smoother, with less resistance and more linear response throughout the tremolo's range of motion.
 
-![Performance Showcase](assets/post-content/prs-mannmade/prs-mannmade-usa-tremelo-8.jpeg)
+![Performance Showcase](/assets/post-content/prs-mannmade/prs-mannmade-usa-tremelo-8.jpeg)
 
 ### Sustain and Resonance
 
@@ -102,7 +105,7 @@ The lighter weight and improved contact points have actually enhanced the guitar
 
 ## Exceptional Customer Service
 
-![Final Result](assets/post-content/prs-mannmade/prs-mannmade-usa-tremelo-9.jpeg)
+![Final Result](/assets/post-content/prs-mannmade/prs-mannmade-usa-tremelo-9.jpeg)
 
 I can't say enough good things about Mannmade's customer service. From the initial inquiry through post-installation support, their team was:
 
@@ -111,7 +114,7 @@ I can't say enough good things about Mannmade's customer service. From the initi
 - **Supportive**: Available for troubleshooting and optimization tips
 - **Professional**: Courteous and helpful throughout the entire process
 
-![Complete Installation](assets/post-content/prs-mannmade/prs-mannmade-usa-tremelo-10.jpeg)
+![Complete Installation](/assets/post-content/prs-mannmade/prs-mannmade-usa-tremelo-10.jpeg)
 
 ## Final Thoughts
 

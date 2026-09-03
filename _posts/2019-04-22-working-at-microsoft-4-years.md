@@ -13,8 +13,7 @@ categories:
   - Career Advice
   - Mentorship
 tags: [microsoft, working at microsoft, career advice, culture, mentorship]
-bigimg: /assets/post-content/joe-microsoft-sign-1.jpg
-share-img: /assets/post-content/joe-microsoft-sign-1.jpg
+image: /assets/post-content/joe-microsoft-sign-1.jpg
 ---
 This week marks four years that I have been working at Microsoft. It’s been an incredibly fun & humbling journey so far!
 

@@ -1,0 +1,57 @@
+---
+---
+
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}'
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* ============================================================
+   Custom overrides — Joe Raio
+   ============================================================ */
+
+/* Brand accent for links, TOC highlight, and the active nav item */
+:root[data-bs-theme='light'] {
+  --link-color: #0a66c2;
+  --toc-highlight: #0a66c2;
+  --sidebar-active-color: #0a66c2;
+  --menu-active-color: #0a66c2;
+}
+
+:root[data-bs-theme='dark'] {
+  --link-color: #8ab4f8;
+  --toc-highlight: #8ab4f8;
+  --sidebar-active-color: #8ab4f8;
+  --menu-active-color: #8ab4f8;
+}
+
+/* Home cards: subtle lift + shadow on hover */
+#post-list .card-wrapper > .card {
+  transition:
+    transform 0.18s ease-in-out,
+    box-shadow 0.18s ease-in-out,
+    background-color 0.18s ease-in-out;
+}
+
+#post-list .card-wrapper:hover > .card {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 26px rgb(0 0 0 / 10%);
+}
+
+/* Rounded preview + post images */
+#post-list .card img,
+.preview-img img,
+.post-content img {
+  border-radius: 10px;
+}
+
+/* Keep embedded iframes (Spotify, SlideShare, YouTube) responsive */
+iframe {
+  max-width: 100%;
+}

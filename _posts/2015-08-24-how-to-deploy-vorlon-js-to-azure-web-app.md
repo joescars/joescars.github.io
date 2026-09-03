@@ -1,6 +1,9 @@
 ---
 id: 114
 title: How to Deploy Vorlon.JS to Azure Web App
+description: >-
+  Deploy Vorlon.js to an Azure Web App using Git version control, then use it to
+  remotely debug your web pages from the browser.
 date: 2015-08-24T10:37:31+00:00
 author: Joe
 excerpt: This video will walk you through how to deploy Vorlon.JS to an Azure Web App using Git version control. The pre-requisites for this video are that you have an active Microsoft Azure account and node.js installed.

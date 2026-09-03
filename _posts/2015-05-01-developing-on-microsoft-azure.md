@@ -1,6 +1,9 @@
 ---
 id: 24
 title: Developing on Microsoft Azure
+description: >-
+  Notes on a great free course from Bret Stateham and Sidney Andrews covering the
+  fundamentals you need for Exam 70-532: Developing Microsoft Azure Solutions.
 date: 2015-05-01T15:46:38+00:00
 author: Joe
 layout: post

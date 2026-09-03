@@ -1,6 +1,9 @@
 ---
 id: 240
 title: Azure IoT Hub, Azure Functions and Farming!
+description: >-
+  How we built a proof of concept with Costa Farms to monitor plant health using
+  Azure IoT Hub, Stream Analytics, Event Hubs, and Azure Functions.
 date: 2017-01-18T09:00:34+00:00
 author: Joe
 excerpt: This case study walks you through how we used Azure IoT Hub, Stream Analytics and Azure Functions to monitor the health of plants.

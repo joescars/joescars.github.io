@@ -1,6 +1,9 @@
 ---
 id: 79
 title: Installing Windows 10 IoT on Raspberry Pi 2 from Windows 8
+description: >-
+  Install Windows 10 IoT Core on a Raspberry Pi 2 from a Windows 7 or 8 machine —
+  no Windows 10 required. Step-by-step with screenshots.
 date: 2015-07-03T12:35:25+00:00
 author: Joe
 layout: post
@@ -9,7 +12,7 @@ permalink: /installing-windows-10-iot-on-raspberry-pi-2-from-windows-8/
 #image: /assets/wp-content/uploads/2015/07/windows-10-iot-raspberry-pi-ii.jpg
 categories:
   - IoT
-  - Raspberry Pi
+  - raspberry pi
   - Windows 10
 tags: [iot, internet of things, raspberry pi, windows 10]
 ---

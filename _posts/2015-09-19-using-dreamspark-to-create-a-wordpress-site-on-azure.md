@@ -1,6 +1,9 @@
 ---
 id: 128
 title: Using DreamSpark to Create a WordPress Site on Azure
+description: >-
+  Activate your DreamSpark subscription, apply your Azure credit, and spin up a
+  free WordPress site — walkthrough with slides.
 date: 2015-09-19T18:05:45+00:00
 author: Joe
 layout: post

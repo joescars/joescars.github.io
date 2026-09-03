@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# The base devcontainers/jekyll image bakes /usr/local/bundle as root-owned;
+# this keeps the global gem dir usable by the non-root dev user.
+sudo chown -R "$(id -u):ruby" /usr/local/bundle
+
 if [ -f package.json ]; then
   bash -i -c "nvm install --lts && nvm install-latest-npm"
   npm i
