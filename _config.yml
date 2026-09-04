@@ -90,7 +90,7 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-# theme_mode: light # uncomment to lock the scheme; leaving it empty follows the system and enables the toggle
+theme_mode: light # keep the site bright and consistent regardless of visitor system preference
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url

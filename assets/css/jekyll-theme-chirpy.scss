@@ -18,40 +18,131 @@
 
 /* Brand accent for links, TOC highlight, and the active nav item */
 :root[data-bs-theme='light'] {
-  --link-color: #0a66c2;
-  --toc-highlight: #0a66c2;
-  --sidebar-active-color: #0a66c2;
-  --menu-active-color: #0a66c2;
+  --link-color: #0f766e;
+  --toc-highlight: #0f766e;
+  --sidebar-active-color: #0f766e;
+  --menu-active-color: #0f766e;
+  --surface-border: rgb(15 118 110 / 15%);
+  --surface-shadow: 0 14px 34px rgb(15 23 42 / 10%);
+  --content-muted: #52636b;
+  --accent-wash: rgb(15 118 110 / 8%);
 }
 
 :root[data-bs-theme='dark'] {
-  --link-color: #8ab4f8;
-  --toc-highlight: #8ab4f8;
-  --sidebar-active-color: #8ab4f8;
-  --menu-active-color: #8ab4f8;
+  --link-color: #7dd3c7;
+  --toc-highlight: #7dd3c7;
+  --sidebar-active-color: #7dd3c7;
+  --menu-active-color: #7dd3c7;
+  --surface-border: rgb(125 211 199 / 22%);
+  --surface-shadow: 0 14px 34px rgb(0 0 0 / 30%);
+  --content-muted: #b8c7c4;
+  --accent-wash: rgb(125 211 199 / 10%);
 }
 
-/* Home cards: subtle lift + shadow on hover */
-#post-list .card-wrapper > .card {
+/* Home cards use Chirpy's combined `card-wrapper card` element. */
+#post-list .card-wrapper {
+  border: 1px solid var(--surface-border);
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgb(15 23 42 / 4%);
   transition:
-    transform 0.18s ease-in-out,
-    box-shadow 0.18s ease-in-out,
-    background-color 0.18s ease-in-out;
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
 }
 
-#post-list .card-wrapper:hover > .card {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 26px rgb(0 0 0 / 10%);
+#post-list .card-wrapper:hover {
+  border-color: var(--link-color);
+  box-shadow: var(--surface-shadow);
+  transform: translateY(-4px);
 }
 
-/* Rounded preview + post images */
+#post-list .card-title {
+  color: var(--heading-color);
+  letter-spacing: -0.015em;
+  line-height: 1.22;
+}
+
+#post-list .card-text {
+  color: var(--content-muted);
+  line-height: 1.65;
+}
+
+#post-list .post-meta {
+  color: var(--content-muted);
+  font-size: 0.76rem;
+  letter-spacing: 0.025em;
+}
+
+/* Preview images have a consistent editorial crop and restrained interaction. */
+#post-list .preview-img {
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+#post-list .preview-img img {
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  transition: transform 0.25s ease;
+}
+
+#post-list .card-wrapper:hover .preview-img img {
+  transform: scale(1.025);
+}
+
+/* Rounded, polished media in long-form content. */
 #post-list .card img,
 .preview-img img,
 .post-content img {
-  border-radius: 10px;
+  border-radius: 12px;
 }
 
-/* Keep embedded iframes (Spotify, SlideShare, YouTube) responsive */
-iframe {
+.post-content > h2 {
+  margin-top: 2.4rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid var(--surface-border);
+  letter-spacing: -0.02em;
+}
+
+.post-content > h3 {
+  margin-top: 1.9rem;
+  letter-spacing: -0.01em;
+}
+
+.post-content img {
+  display: block;
   max-width: 100%;
+  margin: 1.75rem auto;
+  border: 1px solid var(--surface-border);
+  box-shadow: 0 8px 24px rgb(15 23 42 / 10%);
+}
+
+.post-content blockquote {
+  padding: 0.9rem 1.15rem;
+  border-inline-start: 4px solid var(--link-color);
+  border-radius: 0 10px 10px 0;
+  background: var(--accent-wash);
+}
+
+.post-content code {
+  border-radius: 5px;
+}
+
+/* Keep embedded media constrained without forcing one ratio on all providers. */
+.post-content iframe {
+  display: block;
+  max-width: 100%;
+  border: 0;
+  border-radius: 12px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #post-list .card-wrapper,
+  #post-list .preview-img img {
+    transition: none;
+  }
+
+  #post-list .card-wrapper:hover,
+  #post-list .card-wrapper:hover .preview-img img {
+    transform: none;
+  }
 }
