@@ -9,6 +9,12 @@ title: Projects
 
 A handful of things I've built outside of the day job — home-lab tooling, open source, and the occasional weekend rabbit hole.
 
+## openwebui-azure-image-shim — bridge Open WebUI to Azure image models
+
+[Full write-up]({% post_url 2026-09-05-openwebui-azure-image-shim %}) · [Source code](https://github.com/joescars/openwebui-azure-image-shim)
+
+A tiny, dependency-free OpenAI-compatible proxy that lets Open WebUI (or any other OpenAI-client tool) generate images through Azure AI Foundry's MAI-Image models, which use a different auth scheme and request shape than the standard Azure OpenAI DALL-E API.
+
 ## LunaTV — a mobile-first HDHomeRun client
 
 [Full write-up]({% post_url 2026-08-26-hdhomerun-web %})
