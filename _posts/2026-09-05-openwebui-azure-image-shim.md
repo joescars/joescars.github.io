@@ -1,5 +1,6 @@
 ---
 title: "Bridging Open WebUI and Azure's MAI Image Models with a Tiny OpenAI-Compatible Shim"
+pin: true
 description: Why Open WebUI can't talk to Azure AI Foundry's MAI-Image models directly, and the small proxy that fixes it.
 excerpt: A custom Azure image endpoint, an OpenAI-shaped client, and the 404s in between — here's the shim that closes the gap.
 author: Joe
