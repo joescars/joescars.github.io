@@ -9,6 +9,12 @@ title: Projects
 
 A handful of things I've built outside of the day job — home-lab tooling, open source, and the occasional weekend rabbit hole.
 
+## onedrive-mcp — read-only OneDrive access for AI agents
+
+[Full write-up]({% post_url 2026-09-14-onedrive-mcp %}) · [Source code](https://github.com/joescars/onedrive-mcp)
+
+A Model Context Protocol (MCP) server that lets agents in Hermes or Open WebUI search and download files from a personal OneDrive account via Microsoft Graph — strictly read-only, enforced in code, using MSAL's device-code auth flow.
+
 ## openwebui-azure-image-shim — bridge Open WebUI to Azure image models
 
 [Full write-up]({% post_url 2026-09-05-openwebui-azure-image-shim %}) · [Source code](https://github.com/joescars/openwebui-azure-image-shim)
