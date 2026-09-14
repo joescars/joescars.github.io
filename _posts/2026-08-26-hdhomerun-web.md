@@ -1,7 +1,7 @@
 ---
 title: "LunaTV: A Mobile-First HDHomeRun Client for the Browser and Roku"
 author: Joe
-pin: true
+pin: false
 description: >-
   LunaTV is a mobile-first, self-hosted HDHomeRun client for the browser and Roku —
   live TV guide, QSV-accelerated HLS transcoding, and friendlier device admin.
