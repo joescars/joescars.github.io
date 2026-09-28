@@ -28,6 +28,7 @@ description: Project-specific guidance for AI coding agents working on this Jeky
 * Cloudflare Pages builds and hosts the site. Set `RUBY_VERSION=3.3`, `JEKYLL_ENV=production`, and `BUNDLE_WITHOUT=development:test`; use `git fetch --unshallow && git submodule update --init --recursive && bundle exec jekyll build` with output directory `_site`. The Git history is required for post modification dates; `--unshallow` assumes Cloudflare's shallow checkout.
 * The former GitHub Pages workflow is preserved in `.github/workflows-archive/pages-deploy.yml`, outside the active `.github/workflows/` directory. It no longer deploys the site; local link/content checks remain available through `bash tools/test.sh`.
 * Production enables local static assets and PWA caching. Keep the `assets/lib` submodule initialized in the Cloudflare build.
+* Cloudflare Pages redirects live in `_redirects`, explicitly included by `_config.yml` so Jekyll copies it to `_site`. The legacy `/lunatv` and `/lunatv/` URLs permanently redirect to the LunaTV GitHub repository.
 * Follow `.editorconfig`: UTF-8, two spaces, LF endings, and final newlines. Do not trim trailing whitespace in Markdown. Prefer double quotes in YAML and single quotes in JavaScript, CSS, and SCSS.
 * VS Code formats Markdown, Liquid/HTML, and shell files with repository-configured extensions; `*.html` is associated with Liquid.
 
