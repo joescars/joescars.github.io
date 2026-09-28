@@ -18,15 +18,16 @@ description: Project-specific guidance for AI coding agents working on this Jeky
 
 ## Commands
 
-* Install Ruby dependencies with `bundle install`; CI uses Ruby 3.3.
+* Install Ruby dependencies with `bundle install`; production builds use Ruby 3.3.
 * Run the live-reloading local server with `bash tools/run.sh`; pass `-H 0.0.0.0` only when the server must be externally reachable, or `-p` for production mode.
 * Run the production build and local link/content checks with `bash tools/test.sh`. It recreates `_site`, builds with `JEKYLL_ENV=production`, and runs `htmlproofer` with external URLs disabled.
 * To test a configuration overlay, use `bash tools/test.sh -c "_config.yml,other-config.yml"`; the script derives the output path from the final non-empty `baseurl`.
 
 ## Delivery and formatting
 
-* GitHub Pages deploys after pushes to `main` or `master`, except changes limited to `.gitignore`, `README.md`, or `LICENSE`; the workflow also supports manual dispatch. CI uses a full Git checkout, Ruby 3.3, a production build, and `htmlproofer` with external URLs disabled.
-* Production enables local static assets and PWA caching. The deployment workflow does not initialize the `assets/lib` submodule, so confirm deployment behavior before changing submodule-dependent assets.
+* Cloudflare Pages builds and hosts the site. Set `RUBY_VERSION=3.3`, `JEKYLL_ENV=production`, and `BUNDLE_WITHOUT=development:test`; use `git fetch --unshallow && git submodule update --init --recursive && bundle exec jekyll build` with output directory `_site`. The Git history is required for post modification dates; `--unshallow` assumes Cloudflare's shallow checkout.
+* The former GitHub Pages workflow is preserved in `.github/workflows-archive/pages-deploy.yml`, outside the active `.github/workflows/` directory. It no longer deploys the site; local link/content checks remain available through `bash tools/test.sh`.
+* Production enables local static assets and PWA caching. Keep the `assets/lib` submodule initialized in the Cloudflare build.
 * Follow `.editorconfig`: UTF-8, two spaces, LF endings, and final newlines. Do not trim trailing whitespace in Markdown. Prefer double quotes in YAML and single quotes in JavaScript, CSS, and SCSS.
 * VS Code formats Markdown, Liquid/HTML, and shell files with repository-configured extensions; `*.html` is associated with Liquid.
 
