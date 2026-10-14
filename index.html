@@ -3,3 +3,27 @@ layout: home
 title: Joe Raio
 # Index page
 ---
+
+<section class="home-intro" aria-labelledby="home-intro-title">
+  <div class="home-intro__copy">
+    <h1 id="home-intro-title">Practical notes from cloud work, software, and the home lab.</h1>
+    <p>
+      I write about Azure and the projects I build, sharing useful details from the work—including the parts that take a few tries.
+    </p>
+  </div>
+
+  <nav class="home-paths" aria-label="Explore the site">
+    <a class="home-path" href="#post-list">
+      <span class="home-path__title">Latest writing</span>
+      <span class="home-path__description">Browse practical notes on Azure, AI tooling, and software.</span>
+    </a>
+    <a class="home-path" href="{{ '/projects/' | relative_url }}">
+      <span class="home-path__title">Projects</span>
+      <span class="home-path__description">Explore open-source work and home-lab experiments.</span>
+    </a>
+    <a class="home-path" href="{{ '/about/' | relative_url }}">
+      <span class="home-path__title">About Joe</span>
+      <span class="home-path__description">Learn about my work, speaking, and interests.</span>
+    </a>
+  </nav>
+</section>
